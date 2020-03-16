@@ -64,4 +64,4 @@ $ cd hello_cargo
 ```
 Cargo has generated two files and one directory for us: a [Cargo.toml](/hello_cargo/Cargo.toml) file and a [src](/hello_cargo/src) directory with a [main.rs](/hello_cargo/src/main.rs) file inside.
 
-The inside of the file [Cargo.toml](/hello_cargo/Cargo.toml)
+The inside of the file [Cargo.toml](hello_cargo/Cargo.toml)
