@@ -20,9 +20,9 @@ mkdir hello_world
 cd hello_world
 ```
 
-Now that we are in the project folder, we start programming in Rust. The basic rule for making a project folder and running Rust programs/projects is that a [main.rs](/hello_world/main.rs) file is required. The rustc compiler will then use the main file to make a runnable executable.
+Now that we are in the project folder, we start programming in Rust. The basic rule for making a project folder and running Rust programs/projects is that a [main.rs](hello_world/main.rs) file is required. The rustc compiler will then use the main file to make a runnable executable.
 
-In the [main.rs](/hello_world/main.rs) file we write this piece of code:
+In the [main.rs](hello_world/main.rs) file we write this piece of code:
 ```rust
 fn main() {
     println!("Hello, world!");
@@ -32,7 +32,7 @@ The `fn main()` designates the main function entry point for the program (it is 
 
 The `println!("Hello, world!");` prints the string "Hello, World!" to the console. Rust uses macros and `println!` is a macro which is designated by an exclamation mark: `!`.
 
-After the code is written and saved to the [main.rs](/hello_world/main.rs) file the following commands are used to compile and run:
+After the code is written and saved to the [main.rs](hello_world/main.rs) file the following commands are used to compile and run:
 ```bash
 $ rustc main.rs
 $ ./main
@@ -55,13 +55,13 @@ cargo 1.42.0 (86334295e 2020-01-31)
 At the moment of writing this I am currently on version 1.42.0 as seen above
 
 ### Creating a Project with Cargo
-As discussed before, the cargo tool can be used to create projects. The process is much simpler than the way we used to create the [hello_world](/hello_world) project.
+As discussed before, the cargo tool can be used to create projects. The process is much simpler than the way we used to create the [hello_world](hello_world) project.
 
 To create the project, these two commands need to be run:
 ```bash
 $ cargo new hello_cargo
 $ cd hello_cargo
 ```
-Cargo has generated two files and one directory for us: a [Cargo.toml](/hello_cargo/Cargo.toml) file and a [src](/hello_cargo/src) directory with a [main.rs](/hello_cargo/src/main.rs) file inside.
+Cargo has generated two files and one directory for us: a [Cargo.toml](hello_cargo/Cargo.toml) file and a [src](hello_cargo/src) directory with a [main.rs](hello_cargo/src/main.rs) file inside.
 
 The inside of the file [Cargo.toml](hello_cargo/Cargo.toml)
