@@ -64,4 +64,23 @@ $ cd hello_cargo
 ```
 Cargo has generated two files and one directory for us: a [Cargo.toml](hello_cargo/Cargo.toml) file and a [src](hello_cargo/src) directory with a [main.rs](hello_cargo/src/main.rs) file inside.
 
-The inside of the file [Cargo.toml](hello_cargo/Cargo.toml)
+The inside of the file [Cargo.toml](hello_cargo/Cargo.toml) should look like this:
+```toml
+[package]
+name = "hello_cargo"
+version = "0.1.0"
+authors = ["codeseys"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+```
+
+If you haven't noticed already, the file format is in TOML which is _Tom’s Obvious, Minimal Language_. IDK who Tom is but thanks for the easy to use and understand formatting.
+
+The first line, `[package]`, is a section heading that indicates that the following statements are configuring a package. As we add more information to this file, we’ll add other sections.
+
+The next 4 lines set the configuration information Cargo needs to compile our program such as the name of the package, the version, the author, and the edition of rust to use. 
+
+The last part of the file should be the `[dependencies]` section.
