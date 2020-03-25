@@ -1,4 +1,4 @@
-# Chapter 1
+# Chapter 1 - Getting Started
 
 ## Installation
 I use the Windows Subsystem for Linux for the installation of the rustup and cargo tools.
