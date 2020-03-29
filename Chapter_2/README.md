@@ -51,7 +51,7 @@ The next few lines should be familiar as we went over them in [Chapter_1](../Cha
 
 Next we need to store the user input. We can store this in a string as one would in a typical C/C++ program but we have a feature in Rust that we can use to our advantage: the `let` keyword.
 
-The `let` keyword is what we can use to create a variable instead of declaring a variable of type `string` like in C/C++ it allows the developer to have a certain degree of flexibility in managing variables. However if one so desires the developer can use the syntax to declare a variable with a specific type (This topic will be discussed in [Chapter_3](../Chapter_3/README.md#variables-and-mutability))
+The `let` keyword is what we can use to create a variable instead of declaring a variable with a designated type like in C/C++ it allows the developer to have a certain degree of flexibility in managing variables. However if one so desires the developer can use the syntax to declare a variable with a specific type (This topic will be discussed in [Chapter_3](../Chapter_3/README.md#variables-and-mutability))
 
 The reason for we we can use the keyword `let` without necessarily declaring a specific variable type is because Rust is a type of inferred language meaning that the Rust compiler will automatically infer(know) the type of data we want stored in the variable based on the initial value we assign it. This is known as `type inference`.
 
